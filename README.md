@@ -1,7 +1,7 @@
 <u>**联系方式**</u>
 
 * 手机： 15927063036
-* Email ： <a href="mailto:seanshu96@gmail.com">seanshu96@gmail.com</a>
+* Email ： <a href="mailto:sean.yuan.shu@gmail.com">sean.yuan.shu@gmail.com</a>
 
 <u>**个人信息**</u>
 * 舒远 / 男 / 1996
