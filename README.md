@@ -6,7 +6,7 @@
 <u>**个人信息**</u>
 * 舒远 / 男 / 1996
 * 本科 / 武汉大学/软件工程 / <u> 2014.09 - 2018.07 </u>
-* 工作年限<b>1</b>年
+* 工作年限: <b>1</b>年
 * GitHub: [https://github.com/shuyuanzz](https://github.com/shuyuanzz)
 * 期望职位: web前端工程师
 
@@ -14,11 +14,16 @@
 <u>**工作经历**</u>
 
 * <u>**新蛋信息技术有限公司（2018-11月--至今）担任前端工程师**</u>
-   + **ngm-site [https://m.newegg.com/](https://m.newegg.com/)**<br>
-     + 该项目使用 `react、mobx` 开发，使用`node-express`作为网关层，采用客户端、服务端同构的双端渲染方式。
-     + 担任的角色：界面开发、组件封装、业务逻辑实现。
+   + **ngm-site [https://www.newegg.com](https://www.newegg.com)**<br>
+     + 该项目是一个React同构应用，其具体技术组成为：
+       1. 服务端框架：nest.js。
+       2. 双端渲染引擎：React。
+       3. 状态管理： mobx。
+       4. 类型检查： TypeScript.
+       5. 项目打包构建编译: webpack、gulp、tsc。
+     + 担任的角色：界面开发、组件封装、业务逻辑实现以及一些小型优化任务。
      + 遇到的问题:
-       1. localstorage跨域共享：使用 `iframe`以及`postmessage`来同步localstorage。
+       1. webpack项目打包编译速度优化： 使用thread-loader来进行多进程多实例构建。 并通过配置相关参数开启多进程并行压缩和引入缓存来提升第二次打包速度。通过code-splite 和 动态import来缩小打包产物体积。
        2. web唤端兼容：通过定时以及 `visibilitychange` 和  `pagehide` （兜底）事件解决。
    + **ngm-app**<br/>
      + 该项目使用  `react-native、mobx`开发，页面跳转使用的`navgation`库实现。
@@ -42,12 +47,12 @@
      + 界面开发。     
 
 <u>**技能清单**</u>
-  * **语言:** 熟悉 ``javascript`` ``es6`` ``html`` ``css`` ``typescript`` 对``node-express``有一定使用经验
-  * **前端框架:** ``react`` +``mobx``,对``angular``以及``vue``+``nuxt``有过一定了解
-  * **打包工具:** 对``webpack``有过使用经验
-  * **版本管理:**  ``git`` ``svn``
-  * **后端语言:** 对 ``java`` ``php`` ``node.js``有过一定了解
-  * **前端优化:** 对前端优化有一定了解及开发经验
+  * **语言基础:** 熟悉 ``JavaScript``以及对其新规范有一定了解，熟悉 ``html`` ``css`` ``TypeScript``， 对 ``node.js``有一定使用经验。
+  * **框架经验:** 渲染引擎：``react`` 状态管理： ``mobx`` ``redux`` 服务端框架 ： ``nest.js`` ,对``angular``以及``vue``有过一定了解。
+  * **打包工具:**  能够使用webpack对项目进行打包编译优化。
+  * **版本管理:**  ``git``。
+  * **后端语言:** 对 ``java`` ``php`` ``node.js``有过一定了解。
+  * **前端优化:** 对前端优化有一定了解及开发经验。
 
 
 **致谢**
